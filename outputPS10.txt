@@ -1,0 +1,52 @@
+Query 1
+Evidence:
+  ph = 3.72  ->  Low
+  Hardness = 204.89  ->  Medium
+  Solids = 20791.32  ->  Medium
+  Chloramines = 7.3  ->  Medium
+  Sulfate = 368.5  ->  High
+  Conductivity = 564.30  ->  High
+  Turbidity = 2.96  ->  Low
+
+Potability    0              1              
+Probability   0.719934       0.280066       
+
+Probability of the water being good (Potability=1) is 28.01%.
+
+------------------------------------------------------------
+
+Query 2
+Evidence:
+  Hardness = 248.0  ->  High
+  Solids = 28749  ->  High
+  Chloramines = 7.5  ->  Medium
+  Sulfate = 393  ->  High
+  Conductivity = 283  ->  Low
+  Organic_carbon = 13.78  ->  Medium
+  Trihalomethanes = 84.6  ->  High
+  Turbidity = 2.67  ->  Low
+  (Potability=1 was given in the input as a reference label; not used as evidence)
+
+Potability    0              1              
+Probability   0.560095       0.439905       
+
+Probability of the water being good (Potability=1) is 43.99%.
+
+------------------------------------------------------------
+
+Query 3
+Evidence:
+  ph = Low  ->  Low
+  Hardness = High  ->  High
+  Solids = High  ->  High
+  Chloramines = High  ->  High
+  Sulfate = High  ->  High
+  Conductivity = High  ->  High
+  Organic_carbon = High  ->  High
+  Trihalomethanes = High  ->  High
+  Turbidity = High  ->  High
+
+Potability    0              1              
+Probability   0.559951       0.440049       
+
+Probability of the water being good (Potability=1) is 44.00%.

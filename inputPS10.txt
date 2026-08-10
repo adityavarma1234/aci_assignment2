@@ -1,0 +1,16 @@
+# Query 1 -- Predict water quality from a partial numeric evidence row
+# (mirrors the assignment's "Predict the water quality" sample)
+ph,Hardness,Solids,Chloramines,Sulfate,Conductivity,Turbidity
+3.72,204.89,20791.32,7.3,368.5,564.30,2.96
+
+# Query 2 -- Infer probability from a different partial numeric evidence row
+# (mirrors the assignment's "Infer the probability" sample; the trailing
+# Potability value is the row's true label from the dataset, shown only for
+# reference -- it is NOT used as evidence)
+Hardness,Solids,Chloramines,Sulfate,Conductivity,Organic_carbon,Trihalomethanes,Turbidity,Potability
+248.0,28749,7.5,393,283,13.78,84.6,2.67,1
+
+# Query 3 -- Qualitative query: low pH, high hardness, high solids, and the
+# remaining chemical attributes high
+ph,Hardness,Solids,Chloramines,Sulfate,Conductivity,Organic_carbon,Trihalomethanes,Turbidity
+Low,High,High,High,High,High,High,High,High
